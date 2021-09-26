@@ -1,0 +1,7 @@
+package com.mintic.TiendaEcomerce.model;
+
+public class Usuarios 
+{
+   private long cedula_cliente;
+   
+}

@@ -1,0 +1,5 @@
+package com.mintic.TiendaEcomerce.model;
+
+public class Usuarios {
+
+}
