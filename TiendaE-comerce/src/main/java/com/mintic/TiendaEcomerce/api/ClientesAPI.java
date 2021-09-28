@@ -37,7 +37,7 @@ public class ClientesAPI
 	}
 	
 	@DeleteMapping("/eliminar/{id}")
-	public void eliminar(@PathVariable("id")Integer id)
+	public void eliminar(@PathVariable("id")Long id)
 	{
 		clientesDao.deleteById(id);
 	}

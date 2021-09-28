@@ -8,15 +8,17 @@ import javax.persistence.Id;
 public class Clientes 
 {
 	@Id
-	private long cedula_cliente;
+	private Long cedula_cliente;
 	private String nombre_cliente;
 	private String direccion_cliente;
 	private String email_cliente;
 	private String telefono_cliente;
+	
+	
 	public long getCedula_cliente() {
 		return cedula_cliente;
 	}
-	public void setCedula_cliente(long cedula_cliente) {
+	public void setCedula_cliente(Long cedula_cliente) {
 		this.cedula_cliente = cedula_cliente;
 	}
 	public String getNombre_cliente() {
